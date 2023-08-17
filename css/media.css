@@ -1,0 +1,22 @@
+
+
+@media screen and (max-width: 1400px) {
+
+    /* SKILLS */
+
+    .skills__flex {
+        flex-direction: column;
+    }
+
+    .skills__flex-right {
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+    }
+
+    .skills-img {
+        margin: 0 auto;
+    }
+
+
+}
