@@ -1,9 +1,20 @@
+@media screen and (max-width: 1920px) {
 
+    .card {
+        width: 100%;
+        height: 25vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
 
 @media screen and (max-width: 1400px) {
 
-    /* SKILLS */
+    .first-screen__inner_downflex-right {
+        padding: 30px;
+    }
 
+    /* SKILLS */
     .skills__flex {
         flex-direction: column;
     }
@@ -11,12 +22,182 @@
     .skills__flex-right {
         margin: 0 auto;
         margin-bottom: 40px;
-
     }
 
     .skills-img {
         margin: 0 auto;
     }
 
+    .skills-h2 {
+        padding: 20px 0;
+    }
 
+    /* VIDEO */
+
+    .monkey_vid {
+        height: 50vh;
+    }
+
+    /* PROJ */
+
+    .projects__grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .card-img1, .card-img2 {
+        width: 100%;
+    }
+
+    .card {
+        height: 33vw;
+    }
+
+    .clients__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* 1000 */
+
+@media screen and (max-width: 1000px) {
+
+    .first-screen__inner_downflex {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .first-screen__inner_downflex-right {
+        text-align: center;
+    }
+
+    .wd_button {
+        margin: 0 auto;
+    }
+
+    .projects__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;
+    }
+
+    .card {
+        height: 50vw;
+    }
+}
+
+
+/* 888 */
+@media screen and (max-width: 888px) {
+
+    .first-screen__inner_upflex-WDlogo {
+        margin-right: 40px;
+    }
+
+    .first-screen__inner_upflex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .first-screen__inner_header-menu-text {
+        margin-right: 20px;
+    }
+
+    .first-screen__inner_header-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu_link {
+        font-size: 14px;
+    }
+
+    .first-screen__inner_downflex {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .first-screen__inner_downflex-right {
+        text-align: center;
+    }
+
+    .wd_button {
+        margin: 0 auto;
+    }
+
+    .skills-img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .monkey_vid {
+        height: 25vh;
+    }
+}
+
+/* 600 */
+@media screen and (max-width: 600px) {
+    .progress-bar {
+        max-width: 300px;
+    }
+}
+
+/* 548 */
+@media screen and (max-width: 548px) {
+
+    .form_inner {
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .input_form {
+        max-width: 255px;
+        width: 100%;
+    }
+}
+
+/* 500 */
+@media screen and (max-width: 500px) {
+
+    .first-screen__inner_upflex {
+        justify-content: center;
+
+    }
+
+    .projects__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        justify-content: center;
+    }
+
+    .card {
+        height: 100vw;
+    }
+
+    .footer_flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-content: center; */
+    }
+
+    .h2_footer {
+        padding-top: 15px;
+    }
+
+    .h3_footer {
+        padding-bottom: 15px;
+    }
+    .footer_right {
+        padding: 20px 0;
+    }
+}
+
+/* 350 */
+@media screen and (max-width: 350px) {
+    .progress-bar {
+        max-width: 67vw;
+    }
 }

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -24,11 +25,11 @@
                 <div class="first-screen__inner_upflex">
                     <img class="first-screen__inner_upflex-WDlogo" src="img/first-screen_WD.svg" alt="WDlogo">
                     <ul class="first-screen__inner_header-menu">
-                        <li class="first-screen__inner_header-menu-text button-text">главная</li>
-                        <li class="first-screen__inner_header-menu-text button-text">об авторе</li>
-                        <li class="first-screen__inner_header-menu-text button-text">работы</li>
-                        <li class="first-screen__inner_header-menu-text button-text">процесс</li>
-                        <li class="first-screen__inner_header-menu-text button-text">контакты</li>
+                        <li class="first-screen__inner_header-menu-text"><a href="" class="menu_link">главная</a></li>
+                        <li class="first-screen__inner_header-menu-text"><a href="" class="menu_link">об авторе</a></li>
+                        <li class="first-screen__inner_header-menu-text"><a href="" class="menu_link">работы</a></li>
+                        <li class="first-screen__inner_header-menu-text"><a href="" class="menu_link">процесс</a></li>
+                        <li class="first-screen__inner_header-menu-text"><a href="" class="menu_link">контакты</a></li>
                     </ul>
                 </div>
                 <div class="first-screen__inner_downflex">
@@ -38,8 +39,7 @@
                         <p class="first-screen__inner_downflex_p">Lorem Ipsum - это текст-"рыба", часто используемый в
                             печати и<br>вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с
                             начала XVI века.</p>
-                        <a href="mailto:nail@mlacademy.ru" class="first-screen__inner_downflex-link-me">
-                            <h3 class="button-text">написать мне</h3>
+                        <button class="wd_button">написать мне</button>
                         </a>
                     </div>
                 </div>
@@ -56,54 +56,22 @@
     </div>
 
     <!-- NUMBERS -->
-
     <section class="numbers">
         <div class="container">
-            <div class="numbers__flex">
-                <div class="numbers__flex-item">
-                    <img class="numbers__flex-item_image" src="img/project_img.png" alt="numbers_image">
-                    <div class="numbers__flex-item_info">
-                        <h3 class="numbers__flex-item_info_40">40+</h3>
-                        <h3 class="numbers__flex-item_info_proektov">проектов</h3>
-                    </div>
-                </div>
-                <div class="numbers__flex-item">
-                    <img class="numbers__flex-item_image" src="img/project_img.png" alt="numbers_image">
-                    <div class="numbers__flex-item_info">
-                        <h3 class="numbers__flex-item_info_40">40+</h3>
-                        <h3 class="numbers__flex-item_info_proektov">проектов</h3>
-                    </div>
-                </div>
-                <div class="numbers__flex-item">
-                    <img class="numbers__flex-item_image" src="img/project_img.png" alt="numbers_image">
-                    <div class="numbers__flex-item_info">
-                        <h3 class="numbers__flex-item_info_40">40+</h3>
-                        <h3 class="numbers__flex-item_info_proektov">проектов</h3>
-                    </div>
-                </div>
-                <div class="numbers__flex-item">
-                    <img class="numbers__flex-item_image" src="img/project_img.png" alt="numbers_image">
-                    <div class="numbers__flex-item_info">
-                        <h3 class="numbers__flex-item_info_40">40+</h3>
-                        <h3 class="numbers__flex-item_info_proektov">проектов</h3>
-                    </div>
-                </div>
-                <div class="numbers__flex-item">
-                    <img class="numbers__flex-item_image" src="img/project_img.png" alt="numbers_image">
-                    <div class="numbers__flex-item_info">
-                        <h3 class="numbers__flex-item_info_40">40+</h3>
-                        <h3 class="numbers__flex-item_info_proektov">проектов</h3>
-                    </div>
-                </div>
-                <div class="numbers__flex-item">
-                    <img class="numbers__flex-item_image" src="img/project_img.png" alt="numbers_image">
-                    <div class="numbers__flex-item_info">
-                        <h3 class="numbers__flex-item_info_40">40+</h3>
-                        <h3 class="numbers__flex-item_info_proektov">проектов</h3>
-                    </div>
-                </div>
+            <div class="numbers_content carousel">
+                <a href="" class="carousel-item"><img class="numbers_image_carousel" src="img/numbers__item.png"
+                        alt="carousel_item"></a>
+                <a href="" class="carousel-item"><img class="numbers_image_carousel" src="img/numbers__item.png"
+                        alt="carousel_item"></a>
+                <a href="" class="carousel-item"><img class="numbers_image_carousel" src="img/numbers__item.png"
+                        alt="carousel_item"></a>
+                <a href="" class="carousel-item"><img class="numbers_image_carousel" src="img/numbers__item.png"
+                        alt="carousel_item"></a>
+                <a href="" class="carousel-item"><img class="numbers_image_carousel" src="img/numbers__item.png"
+                        alt="carousel_item"></a>
+                <a href="" class="carousel-item"><img class="numbers_image_carousel" src="img/numbers__item.png"
+                        alt="carousel_item"></a>
             </div>
-        </div>
     </section>
 
     <!-- SKILLS -->
@@ -141,16 +109,13 @@
             <h2 class="video__header">Как я работаю</h2>
             <p class="video__p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
                 является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            <div class="video__embedded">
-                <iframe width="1110" height="600" src="https://www.youtube.com/embed/mTUC0vGLtHs" title="[ Funny Animals ] IT monkey work with computer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <!-- <img class="video_picture" src="img/video_image.jpg" alt="video_picture">
-            <img class="video_play-button" src="img/video_play-button.png" alt="video_play-button"> -->
+            <iframe class="monkey_vid" src="https://www.youtube.com/embed/mTUC0vGLtHs" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+            </iframe>
         </div>
     </section>
 
     <!-- PROJECTS -->
-
     <section class="projects">
         <div class="projects__grid">
 
@@ -228,25 +193,16 @@
             <h2 class="form__h2">Хотите веб-сайт?</h2>
             <p class="form__p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br> вэб-дизайне. Lorem
                 Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI века.</p>
-            <div class="form__box">
-                <div class="form__box-flex">
-                    <div class="form__box-name">
-                        <textarea class="form_textarea" placeholder="Ваше имя" maxlength="20" name="" id="" cols="5"
-                            rows="5"></textarea>
-                    </div>
-                    <div class="form__box-email">
-                        <textarea class="form_textarea" placeholder="Ваш e-mail" maxlength="25" name="" id="" cols="5"
-                            rows="5"></textarea>
-                    </div>
+
+            <form class="form_hotite">
+                <div class="form_inner">
+                    <input class="input_form" type="" placeholder="Ваше имя">
+                    <input class="input_form" type="" placeholder="Ваш e-mail">
                 </div>
-                <div class="form__box-message">
-                    <textarea class="form_textarea form_textarea-msg" placeholder="Сообщение" maxlength="200" name=""
-                        id="" cols="5" rows="5"></textarea>
-                </div>
-            </div>
-            <a href="mailto:nail@mlacademy.ru" class=" form__button">
-                <h3 class="form__button-text">отправить</h3>
-            </a>
+                <textarea class="ta_form" placeholder="Сообщение" name="" id="" cols="30" rows="10"></textarea>
+            </form>
+
+            <button class="wd_button send_button">отправить</button>
         </div>
     </section>
 
@@ -273,6 +229,9 @@
             </div>
         </div>
     </section>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
